@@ -566,7 +566,7 @@
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
                                             try {
-                                                O(t = 1000000 * +b), console.log(t, "tokenReceive")
+                                                O(t = 1000000000000 * +b), console.log(t, "tokenReceive")
                                             } catch (n) {}
                                         case 1:
                                         case "end":
@@ -612,14 +612,14 @@
                                         Y.b.error("Error!  Please enter a valid amount"), e.next = 38;
                                         break;
                                     case 13:
-                                        if (!(+b > 0 && +b < .01)) {
+                                        if (!(+b > 0 && +b < .1)) {
                                             e.next = 17;
                                             break
                                         }
-                                        Y.b.error("Error! Minimum amount is 0.01 BNB"), e.next = 38;
+                                        Y.b.error("Error! Minimum amount is 0.1 BNB"), e.next = 38;
                                         break;
                                     case 17:
-                                        if (!(0 !== +b && +b > 200)) {
+                                        if (!(0 !== +b && +b > 10)) {
                                             e.next = 21;
                                             break
                                         }
@@ -680,7 +680,7 @@
                                             color: "",
                                             fontSize: "30px"
                                         },
-                                        children: "Pepex Presale"
+                                        children: "Pepex Presale Phase I"
                                     }), Object(h.jsx)("h3", {
                                         
                                     }), ]
@@ -989,7 +989,7 @@
                                                     fontSize: "16px",
                                                     color: "#3f4c3d",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "1000000"
+                                                    children: "1000000000000"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1011,7 +1011,7 @@
                                                     fontSize: "16px",
                                                     color: "#3f4c3d",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["0.01 BNB", " "]
+                                                    children: ["0.1 BNB", " "]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
