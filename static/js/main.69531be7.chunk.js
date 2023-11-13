@@ -701,8 +701,8 @@
                                                 background: "#008d7d"
                                             },
                                             borderRadius: "0px",
-                                            borderTop: "20px solid #DEB887",
-                                            borderBottom: "20px solid #DEB887",
+                                            borderTop: "20px solid #f85a40",
+                                            borderBottom: "20px solid #f85a40",
                                             borderLeft: "10px solid #D2B48C",
                                             borderRight: "10px solid #D2B48C",
                                             display: "flex",
