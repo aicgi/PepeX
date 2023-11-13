@@ -264,7 +264,7 @@
             }
             var N = "static/media/logo.png",
                 L = "static/media/logo.png",
-                E = "static/media/pepex.png",
+                E = "static/img/b7.png",
                 D = "static/media/opbnb.416f1e79.svg",
                 q = n(642),
                 V = n(587),
