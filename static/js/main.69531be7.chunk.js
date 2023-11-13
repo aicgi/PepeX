@@ -854,7 +854,7 @@
                                                             height: "20px",
                                                             src: N,
                                                             alt: ""
-                                                        }), " ", "PEPEX"]
+                                                        }), " ", "PPX"]
                                                     })]
                                                 })]
                                             }), Object(h.jsx)(u.a, {
@@ -945,7 +945,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "PEPEX"
+                                                    children: "PPX"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
