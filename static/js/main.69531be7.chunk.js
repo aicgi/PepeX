@@ -1090,8 +1090,8 @@
                                             })]
                                         }), Object(h.jsx)("img", {
                                             src: E,
-                                            width: "600px",
-                                            height: "300px"
+                                            width: "256px",
+                                            height: "192px"
                                         })]
                                     }), Object(h.jsxs)(B.a, {
                                         item: !0,
