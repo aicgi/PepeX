@@ -1090,8 +1090,8 @@
                                             })]
                                         }), Object(h.jsx)("img", {
                                             src: E,
-                                            width: "256px",
-                                            height: "192px"
+                                            width: "100%",
+                                            height: "100%"
                                         })]
                                     }), Object(h.jsxs)(B.a, {
                                         item: !0,
