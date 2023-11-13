@@ -221,7 +221,7 @@
                                     zIndex: 1,
                                     style: {
                                         cursor: "pointer",
-                                        boxShadow: "#041014 0px 0px 8px 1px",
+                                        boxShadow: "#1d282c 0px 0px 8px 1px",
                                         background: "#7B68EE",
                                         borderBottom: "5px solid #DEB887"
                                     },
@@ -777,7 +777,7 @@
                                                             fontSize: "16px",
                                                             marginTop: "10px",
                                                             background: "#1a988a",
-                                                            boxShadow: "#041014 0px 0px 8px 1px",
+                                                            boxShadow: "#1d282c 0px 0px 8px 1px",
                                                             borderBottom: "5px solid #DEB887"
                                                         },
                                                         children: [" ", Object(h.jsx)("img", {
