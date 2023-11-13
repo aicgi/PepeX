@@ -698,7 +698,7 @@
                                             height: "100%",
                                             boxShadow: "#487748 0px 0px 10px 1px",
                                             style: {
-                                                background: "#90ee90"
+                                                background: "#2596be"
                                             },
                                             borderRadius: "0px",
                                             borderTop: "20px solid #DEB887",
@@ -886,7 +886,7 @@
                                             height: "100%",
                                             boxShadow: "#487748 0px 0px 10px 1px",
                                             style: {
-                                                background: "#90ee90"
+                                                background: "#2596be"
                                             },
                                             borderRadius: "0px",
                                             display: "flex",
