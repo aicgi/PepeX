@@ -908,7 +908,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #f85a40",
+                                                borderBottom: "1px solid #66bbb1",
                                                 pb: 2,
                                                 children: [Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
@@ -929,7 +929,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #f85a40",
+                                                borderBottom: "1px solid #66bbb1",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -951,7 +951,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #f85a40",
+                                                borderBottom: "1px solid #66bbb1",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -973,7 +973,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #f85a40",
+                                                borderBottom: "1px solid #66bbb1",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -995,7 +995,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #f85a40",
+                                                borderBottom: "1px solid #66bbb1",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -1017,7 +1017,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #f85a40",
+                                                borderBottom: "1px solid #66bbb1",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
