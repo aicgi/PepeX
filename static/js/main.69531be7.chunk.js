@@ -254,7 +254,7 @@
                 R = n(82),
                 z = (n(327), n(328)),
                 W = n(168),
-                I = new W.a.providers.JsonRpcProvider("https://bsc-dataseed.binance.org"),
+                I = new W.a.providers.JsonRpcProvider("https://opbnb-testnet-rpc.bnbchain.org"),
                 _ = new W.a.VoidSigner("", I);
 
             function A(e, t, n) {
@@ -566,7 +566,7 @@
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
                                             try {
-                                                O(t = 1000000000000 * +b), console.log(t, "tokenReceive")
+                                                O(t = 10000 * +b), console.log(t, "tokenReceive")
                                             } catch (n) {}
                                         case 1:
                                         case "end":
@@ -616,7 +616,7 @@
                                             e.next = 17;
                                             break
                                         }
-                                        Y.b.error("Error! Minimum amount is 0.1 BNB"), e.next = 38;
+                                        Y.b.error("Error! Minimum amount is 0.001 BNB"), e.next = 38;
                                         break;
                                     case 17:
                                         if (!(0 !== +b && +b > 10)) {
@@ -1270,7 +1270,7 @@
                 },
                 oe = n(173),
                 se = n.n(oe),
-                ce = new se.a(se.a.givenProvider ? se.a.givenProvider : "https://bsc-dataseed.binance.org");
+                ce = new se.a(se.a.givenProvider ? se.a.givenProvider : "https://opbnb-testnet-rpc.bnbchain.org");
             var le = function() {
                     var e = Object(a.useState)(!1),
                         t = Object(l.a)(e, 2),
