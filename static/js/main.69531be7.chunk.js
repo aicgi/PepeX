@@ -989,7 +989,7 @@
                                                     fontSize: "16px",
                                                     color: "#3f4c3d",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "1000000000000"
+                                                    children: "10000"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1011,7 +1011,7 @@
                                                     fontSize: "16px",
                                                     color: "#3f4c3d",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["0.1 BNB", " "]
+                                                    children: ["0.01 BNB", " "]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1192,7 +1192,7 @@
                                             return e.prev = 0, e.next = 3, window.ethereum.request({
                                                 method: "wallet_switchEthereumChain",
                                                 params: [{
-                                                    chainId: "0x61"
+                                                    chainId: "5611"
                                                 }]
                                             });
                                         case 3:
@@ -1284,7 +1284,7 @@
                                         case 0:
                                             return e.next = 2, ce.eth.getChainId();
                                         case 2:
-                                            56 !== e.sent && i(!0);
+                                            5611 !== e.sent && i(!0);
                                         case 4:
                                         case "end":
                                             return e.stop()
