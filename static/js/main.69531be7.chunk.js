@@ -672,7 +672,7 @@
                                     mb: 2,
                                     fontWeight: "700",
                                     fontSize: "25px",
-                                    color: "#e6fffc",
+                                    color: "#f85a40",
                                     fontFamily: "Segoe UI Black",
                                     textAlign: "center",
                                     children: [Object(h.jsx)("h3", {
@@ -711,7 +711,7 @@
                                             children: [Object(h.jsx)(u.a, {
                                                 fontWeight: "700",
                                                 fontSize: "25px",
-                                                color: "#e6fffc",
+                                                color: "#f85a40",
                                                 fontFamily: "Secular One",
                                                 textAlign: "center",
                                                 children: "Buy Pepex Token"
@@ -899,7 +899,7 @@
                                             children: [Object(h.jsx)(u.a, {
                                                 fontWeight: "700",
                                                 fontSize: "25px",
-                                                color: "#e6fffc",
+                                                color: "#f85a40",
                                                 fontFamily: "Secular One",
                                                 textAlign: "center",
                                                 children: "Token Info"
