@@ -43,11 +43,11 @@
                     walletconnect: {
                         package: x.a,
                         options: {
-                            networkUrl: "https://bsc-dataseed.binance.org",
+                            networkUrl: "https://opbnb-testnet-rpc.bnbchain.org",
                             rpc: {
-                                56: "https://bsc-dataseed.binance.org"
+                                5611: "https://opbnb-testnet-rpc.bnbchain.org"
                             },
-                            chainId: 56
+                            chainId: 5611
                         }
                     }
                 },
