@@ -616,7 +616,7 @@
                                             e.next = 17;
                                             break
                                         }
-                                        Y.b.error("Error! Minimum amount is 0.01 BNB"), e.next = 38;
+                                        Y.b.error("Error! Minimum amount is 0.1 BNB"), e.next = 38;
                                         break;
                                     case 17:
                                         if (!(0 !== +b && +b > 10)) {
@@ -1011,7 +1011,7 @@
                                                     fontSize: "16px",
                                                     color: "#3f4c3d",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["0.01 BNB", " "]
+                                                    children: ["0.1 BNB", " "]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
