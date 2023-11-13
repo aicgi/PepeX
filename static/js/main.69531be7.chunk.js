@@ -711,7 +711,7 @@
                                             children: [Object(h.jsx)(u.a, {
                                                 fontWeight: "700",
                                                 fontSize: "25px",
-                                                color: "#80c6be",
+                                                color: "#cce5e2",
                                                 fontFamily: "Secular One",
                                                 textAlign: "center",
                                                 children: "Buy Seed Sale"
@@ -899,7 +899,7 @@
                                             children: [Object(h.jsx)(u.a, {
                                                 fontWeight: "700",
                                                 fontSize: "25px",
-                                                color: "#80c6be",
+                                                color: "#cce5e2",
                                                 fontFamily: "Secular One",
                                                 textAlign: "center",
                                                 children: "Token Info"
