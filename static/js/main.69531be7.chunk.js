@@ -265,7 +265,7 @@
             var N = "static/media/logo.png",
                 L = "static/media/logo.png",
                 E = "static/media/pepex.png",
-                D = "static/media/bnblogo.95c82668.svg",
+                D = "static/media/opbnb.416f1e79.svg",
                 q = n(642),
                 V = n(587),
                 H = n(221),
