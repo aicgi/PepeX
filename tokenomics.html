@@ -139,7 +139,19 @@ chart.data = [
     Expense: "Ecosystem",
     litres: 7.5
   },
-  {</script>
+  {
+   Expense: "Community",
+    litres: 20
+  },
+  {
+   Expense: "Team",
+    litres: 7.5
+  }
+];
+
+var series = chart.series.push(new am4charts.PieSeries3D());
+series.dataFields.value = "litres";
+series.dataFields.category = "Expense";</script>
     <br><div id="chartdiv"></div></br>
       </div>
     </section>
