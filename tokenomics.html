@@ -117,9 +117,7 @@ body { background-color:#RRGGBBAA; color: #fff; }
 <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
 <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 <div id="chartdiv"></div>
-<script>
-// Themes begin
-am4core.useTheme(am4themes_dark);
+<script>// Themes begin
 am4core.useTheme(am4themes_animated);
 // Themes end
 
@@ -130,34 +128,42 @@ chart.legend = new am4charts.Legend();
 
 chart.data = [
   {
-    country: "Liquidity",
-    litres: 17
-  },
-  {
-    country: "Private",
+    Expense: "Seed",
     litres: 10
   },
   {
-    country: "Public",
-    litres: 28
+   Expense: "Private Sale",
+    litres: 15
   },
   {
-    country: "Reserve",
+    Expense: "Public Sale",
     litres: 20
   },
   {
-    country: "Early Tester",
-    litres: 12
+    Expense: "Liquidity",
+    litres: 10
   },
   {
-    country: "Community",
-    litres: 13
+    Expense: "Reserves",
+    litres: 10
   },
+  {
+    Expense: "Ecosystem",
+    litres: 7.5
+  },
+  {
+   Expense: "Community",
+    litres: 20
+  },
+  {
+   Expense: "Team",
+    litres: 7.5
+  }
 ];
 
 var series = chart.series.push(new am4charts.PieSeries3D());
 series.dataFields.value = "litres";
-series.dataFields.category = "country";</script>
+series.dataFields.category = "Expense";</script>script>
 				<!-- end chartdiv -->
     
     </main>
