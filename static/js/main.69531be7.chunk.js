@@ -43,11 +43,11 @@
                     walletconnect: {
                         package: x.a,
                         options: {
-                            networkUrl: "https://opbnb-testnet-rpc.bnbchain.org",
+                            networkUrl: "https://opbnb-mainnet-rpc.bnbchain.org/",
                             rpc: {
-                                5611: "https://opbnb-testnet-rpc.bnbchain.org"
+                                5611: "https://opbnb-mainnet-rpc.bnbchain.org/"
                             },
-                            chainId: 5611
+                            chainId: 204
                         }
                     }
                 },
@@ -254,7 +254,7 @@
                 R = n(82),
                 z = (n(327), n(328)),
                 W = n(168),
-                I = new W.a.providers.JsonRpcProvider("https://opbnb-testnet-rpc.bnbchain.org"),
+                I = new W.a.providers.JsonRpcProvider("https://opbnb-mainnet-rpc.bnbchain.org/"),
                 _ = new W.a.VoidSigner("", I);
 
             function A(e, t, n) {
@@ -1191,7 +1191,7 @@
                                             return e.prev = 0, e.next = 3, window.ethereum.request({
                                                 method: "wallet_switchEthereumChain",
                                                 params: [{
-                                                    chainId: "5611"
+                                                    chainId: "204"
                                                 }]
                                             });
                                         case 3:
@@ -1269,7 +1269,7 @@
                 },
                 oe = n(173),
                 se = n.n(oe),
-                ce = new se.a(se.a.givenProvider ? se.a.givenProvider : "https://opbnb-testnet-rpc.bnbchain.org");
+                ce = new se.a(se.a.givenProvider ? se.a.givenProvider : "https://opbnb-mainnet-rpc.bnbchain.org/");
             var le = function() {
                     var e = Object(a.useState)(!1),
                         t = Object(l.a)(e, 2),
@@ -1283,7 +1283,7 @@
                                         case 0:
                                             return e.next = 2, ce.eth.getChainId();
                                         case 2:
-                                            5611 !== e.sent && i(!0);
+                                            204 !== e.sent && i(!0);
                                         case 4:
                                         case "end":
                                             return e.stop()
