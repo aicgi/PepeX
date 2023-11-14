@@ -680,7 +680,7 @@
                                             color: "",
                                             fontSize: "30px"
                                         },
-                                        children: "Pepex Seed Sale"
+                                        children: "Pepex Seed Sale Live Now!"
                                     }), Object(h.jsx)("h3", {
                                         
                                     }), ]
@@ -1077,7 +1077,7 @@
                                                         })
                                                     })]
                                                 }), Object(h.jsxs)("li", {
-                                                    children: ["Choose the wallet where you have your BNB funds, ", Object(h.jsx)("em", {
+                                                    children: ["Choose the wallet where you have your opBNB funds, ", Object(h.jsx)("em", {
                                                         children: "Metamask or WalletConnect"
                                                     })]
                                                 }), Object(h.jsxs)("li", {
@@ -1085,7 +1085,7 @@
                                                         children: "confirm."
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Enter the amount of BNB you want to buy "
+                                                    children: "Enter the amount of opBNB you want to buy "
                                                 })]
                                             })]
                                         }), Object(h.jsx)("img", {
@@ -1161,7 +1161,7 @@
                                                         children: "confirm."
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Once connected, enter the amount of PEPEX Coin you want to buy with BNB "
+                                                    children: "Once connected, enter the amount of PEPEX Coin you want to buy with opBNB "
                                                 })]
                                             })]
                                         })]
