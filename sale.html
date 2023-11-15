@@ -158,16 +158,16 @@ Place of sale: At DEX OpBNB
     </section>
     <!-- End F.A.Q Section -->
 
-	  <!-- chart -->
-	  <section id="myChart">
-	  <div class="container" style="text-align: right;">
-		  <style>.chart {
+	  <!-- mychart -->
+				<style>.chart {
   border: 3px solid royalblue;
 }</style>
-	  <div class="chart">
+<div class="chart">
 		<canvas id="myChart" width="100%"></canvas>
-	  </div>
-		  <script>var ctx = document.getElementById('myChart').getContext('2d');
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script>var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
 	// The type of chart we want to create
 	type: 'line', // also try bar or other graph types
@@ -212,9 +212,7 @@ var chart = new Chart(ctx, {
 		}
 	}
 });</script>
-</section>
-	  <!-- end chart -->
-
+				<!-- end mychart -->
     <!-- button -->
 	  <section id="button">
 	  <div class="container" style="text-align: right;">
@@ -281,8 +279,6 @@ var chart = new Chart(ctx, {
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
