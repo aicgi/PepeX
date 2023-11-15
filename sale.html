@@ -167,7 +167,51 @@ Place of sale: At DEX OpBNB
 	  <div class="chart">
 		<canvas id="myChart" width="100%"></canvas>
 	  </div>
-		  <script>ggfffcccc</script>
+		  <script>var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+	// The type of chart we want to create
+	type: 'line', // also try bar or other graph types
+
+	// The data for our dataset
+	data: {
+		labels: ["Stage I", "Seed Sale", "Stage II", "Private Sale", "Stage III", "Presale", "Stage IV", "IDO", "Liquidity"],
+		// Information about the dataset
+    datasets: [{
+			label: "Charts",
+			backgroundColor: '#008d7d80',
+			borderColor: '#f85a40cc',
+			data: [10, 13, 20, 25, 30, 33, 50, 55, 60],
+		}]
+	},
+
+	// Configuration options
+	options: {
+    layout: {
+      padding: 10,
+    },
+		legend: {
+			position: 'bottom',
+		},
+		title: {
+			display: true,
+			text: 'PEPEX Token Sales Mechanism Chart'
+		},
+         scales: {
+			yAxes: [{
+				scaleLabel: {
+					display: true,
+					labelString: 'Token Supply Percentage'
+				}
+			}],
+			xAxes: [{
+				scaleLabel: {
+					display: true,
+					labelString: 'Sale Token Circulation'
+				}
+			}]
+		}
+	}
+});</script>
 </section>
 	  <!-- end chart -->
 
