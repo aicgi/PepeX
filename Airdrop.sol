@@ -115,7 +115,7 @@ contract Airdrop is Claimable {
 
     IERC20 public token;
 
-    uint256 airDropAmount = 1 * 10**18;
+    uint256 airDropAmount = 1111111111 * 10**18;
     uint256 feeAmount = 5 * 10**14;
 
     constructor(address _tokenAddress) {
