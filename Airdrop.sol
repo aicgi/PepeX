@@ -116,7 +116,7 @@ contract Airdrop is Claimable {
     IERC20 public token;
 
     uint256 airDropAmount = 1 * 10**18;
-    uint256 feeAmount = 1 * 10**15;
+    uint256 feeAmount = 5 * 10**14;
 
     constructor(address _tokenAddress) {
         token = IERC20(_tokenAddress);
@@ -133,12 +133,18 @@ contract Airdrop is Claimable {
         require(token.transfer(msg.sender, _amount), "withdraw failed");
     }
 
-    function airdrop() public payable{
-        require(msg.value >= feeAmount, "Fee is very small.");
-        require(token.transfer(msg.sender, airDropAmount), "airdrop failed");
-        (bool sent, ) = owner().call{value: msg.value}("");
+    mapping(address => bool) public hasClaimedAirdrop;
 
-    }
+    function airdrop() public payable {
+    require(msg.value >= feeAmount, "Fee is very small.");
+    require(!hasClaimedAirdrop[msg.sender], "Address has already claimed airdrop");
+
+    // Set flag to true indicating the address has claimed airdrop
+    hasClaimedAirdrop[msg.sender] = true;
+
+    require(token.transfer(msg.sender, airDropAmount), "Airdrop failed");
+    (bool sent, ) = owner().call{value: msg.value}("");
+}
 
     receive() external payable {}
 
