@@ -923,7 +923,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Comingsoon"
+                                                    children: "0xfE30431d267aCAde4b6BE52D1111301C4185a3BB"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
