@@ -916,14 +916,14 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Contract"
+                                                    children: "Stage"
                                                 }), Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "0xfE30431d267aCAde4b6BE52D1111301C4185a3BB"
+                                                    children: "Seed Sale"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
