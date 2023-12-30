@@ -756,7 +756,7 @@
                                                         type: "text",
                                                         id: "standard-basic",
                                                         variant: "standard",
-                                                        placeholder: "Enter BNB",
+                                                        placeholder: "Enter OpBNB",
                                                         value: b,
                                                         onChange: function(e) {
                                                             x(e.target.value)
@@ -789,7 +789,7 @@
                                                             height: "25px",
                                                             src: D,
                                                             alt: ""
-                                                        }), " ", "BNB"]
+                                                        }), " ", "OpBNB"]
                                                     })]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
@@ -945,7 +945,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "20 BNB"
+                                                    children: "20 OpBNB"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -967,7 +967,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "40 BNB"
+                                                    children: "40 OpBNB"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1011,7 +1011,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["0.1 BNB", " "]
+                                                    children: ["0.1 OpBNB", " "]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1033,7 +1033,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["10 BNB", " "]
+                                                    children: ["10 OpBNB", " "]
                                                 })]
                                             })]
                                         })
