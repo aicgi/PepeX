@@ -538,7 +538,7 @@
                     var e, t = Object(a.useContext)(w),
                         n = t.account,
                         i = function(e) {
-                            return A("0xcc38305F987566499bEBb9B02E6E51c5354eC559", z, e)
+                            return A("0x5217e31652E4231fdd8aCa80c62c123870B7B9D5", z, e)
                         }(t.signer),
                         r = Object(d.a)("(max-width:700px)"),
                         o = Object(a.useState)(""),
@@ -566,7 +566,7 @@
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
                                             try {
-                                                O(t = 250000000000 * +b), console.log(t, "tokenReceive")
+                                                O(t = 220000000000 * +b), console.log(t, "tokenReceive")
                                             } catch (n) {}
                                         case 1:
                                         case "end":
@@ -680,7 +680,7 @@
                                             color: "",
                                             fontSize: "30px"
                                         },
-                                        children: "Pepex Seed Sale Live Now!"
+                                        children: "Pepex Private Sale Live Now!"
                                     }), Object(h.jsx)("h3", {
                                         
                                     }), ]
@@ -714,7 +714,7 @@
                                                 color: "#cce5e2",
                                                 fontFamily: "Secular One",
                                                 textAlign: "center",
-                                                children: "Buy Seed Sale"
+                                                children: "Buy Private Sale"
                                             }), Object(h.jsxs)(u.a, {
                                                 mt: 2,
                                                 mb: 2,
@@ -923,7 +923,7 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Seed Sale"
+                                                    children: "Private Sale"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -982,14 +982,14 @@
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Tokens Per BNB"
+                                                    children: "Tokens Per OpBNB"
                                                 }), Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#e6fffc",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "250.000.000.000"
+                                                    children: "220.000.000.000"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
